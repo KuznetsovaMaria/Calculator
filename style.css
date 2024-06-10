@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 32px;
+}
+
+.calculator {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator button {
+    height: 80px;
+    flex-basis: 25%;
+}
+
+.display {
+    flex-basis: 100%;
+    border: 1px solid black;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
