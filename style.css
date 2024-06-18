@@ -4,17 +4,46 @@
 
 body {
     margin: 32px;
+    font-family: sans-serif;
 }
 
 .calculator {
-    width: 400px;
+    width: 414px;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .calculator button {
     height: 80px;
-    flex-basis: 25%;
+    flex-basis: 90px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+.numBtn {
+    background-color: rgb(241, 241, 241);
+}
+.numBtn:active {
+    background-color: rgb(212, 212, 212);
+}
+
+.calculator .operatorBtn {
+    background-color: rgb(245, 199, 115);
+}
+.calculator .operatorBtn:active {
+    background-color: rgb(204, 163, 88);
+}
+
+#clearAllBtn {
+    background-color: rgb(250, 155, 155);
+}
+#clearAllBtn:active {
+    background-color: rgb(216, 123, 123);
 }
 
 .display {
@@ -24,6 +53,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    border-radius: 10px;
+    font-size: 28px;
+    border: 2px solid black;
 }
 
